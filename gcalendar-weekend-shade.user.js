@@ -12,7 +12,7 @@
 //
 // @require         https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 //
-// @version         1.0
+// @version         1.0.1
 // @updateURL       https://github.com/henrylawson/gcalendar-weekend-shade/raw/master/gcalendar-weekend-shade.user.js
 // ==/UserScript==
 
@@ -23,7 +23,7 @@
     "  .st-dtitle:nth-child(6), .st-dtitle:nth-child(7),",
     "  /* weekends on week calendar */",
     "  .tg-weekend {",
-    "    background-color: #EEEEEE !important;",
+    "    background-color: #666666 !important;",
     "  }"
   ].join("\n");
 
